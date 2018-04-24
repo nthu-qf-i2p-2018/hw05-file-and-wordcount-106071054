@@ -64,6 +64,6 @@ def main(filename):
     pickle.dump(counter.most_common(),open("wordcount.pkl","wb"))
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main("i_have_a_dream.txt")
 
